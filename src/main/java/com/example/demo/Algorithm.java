@@ -108,7 +108,6 @@ public class Algorithm {
             if(Integer.parseInt(weightNode.get(currentIndex).get("weight").toString()) >= currentWeight) {
                 System.out.println("加权轮训获取节点为："+ weightNode.get(currentIndex));
                 break;
-
             }
         }
     }
